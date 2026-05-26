@@ -50,7 +50,7 @@ public class Demo {
 		JsonPath js = new JsonPath(s1);
 		String s = js.get("id").toString();
 		System.out.println("id=" + s);
-
+		System.out.println();
 	}
 
 }
