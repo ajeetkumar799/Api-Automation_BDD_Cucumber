@@ -51,7 +51,6 @@ public class Demo {
 		String s = js.get("id").toString();
 		System.out.println("id=" + s);
 		System.out.println();
-		//test
 	}
 
 }
