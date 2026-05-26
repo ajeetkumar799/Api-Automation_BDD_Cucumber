@@ -59,8 +59,7 @@ public class CreateUserTest_objectMapper {
 			Map<String, Object> ctaMap = (Map<String, Object>) metaMap.get("cta");
 			Assert.assertEquals(ctaMap.get("label"), "Get started", "CTA label mismatch!");
 			Assert.assertEquals(ctaMap.get("url"), "https://app.reqres.in/upgrade", "CTA url mismatch!");
-			
-			
+
 		}
 	}
 }
