@@ -65,7 +65,8 @@ public class AddPlaceAPi {
 		 * responseMap); String placeId = (String) responseMap.get("place_id");
 		 * System.out.println("place_id = " + placeId);
 		 */
-		// Deserialization using direct Rest Assured shortcut. by using restAssured JsonPath() method
+		// Deserialization using direct Rest Assured shortcut. by using restAssured
+		// JsonPath() method
 
 		/*
 		 * Map<String, Object> responseMap = resp.jsonPath().getMap("");
