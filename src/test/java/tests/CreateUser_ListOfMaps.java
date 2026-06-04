@@ -16,6 +16,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class CreateUser_ListOfMaps {
+	/*
+	 * List of Map is used to test functionality with different set of test data
+	 */
 	@Test
 	public void createUserByListOfMaps() {
 
