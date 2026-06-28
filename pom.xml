@@ -45,5 +45,12 @@
 			<version>2.21.2</version>
 			<scope>compile</scope>
 		</dependency>
+		<!-- Source:
+		https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
 	</dependencies>
 </project>
