@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CreateUserTest_objectMapper">
+      <class name="tests.UpdateUser">
         <methods>
-          <include name="createUserByListOfMaps"/>
+          <include name="updateUserWithDifferentSetOfData"/>
         </methods>
-      </class> <!-- tests.CreateUserTest_objectMapper -->
+      </class> <!-- tests.UpdateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
